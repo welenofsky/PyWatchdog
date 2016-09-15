@@ -1,8 +1,10 @@
 #! /usr/bin/python
+from __future__ import print_function
 """
-This is a gui GTKx(undecided) application that uses a AF_INET 
+This is a gui tkinter application that uses a AF_INET 
 connection to our web servers IP to asertain the current
-status of internet connectivity. It is written in Python 3 only.
+status of internet connectivity. It is written in python 2/3
+only works on windows because of winsound requirement
 Authored by Justin Welenofsky
 """
 
